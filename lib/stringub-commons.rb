@@ -1,7 +1,7 @@
-require "sub-general/version"
+require "stringub-commons/version"
 
-module Sub
-  module General
+module Stringub
+  module Commons
     WORD_PATTERN      = /\w[\w\'\-]*/
     ANY_SPACE_PATTERN = /\s+/
 
@@ -22,5 +22,5 @@ module Sub
 end
 
 class String
-  include Sub::General
+  include Stringub::Commons
 end

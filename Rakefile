@@ -15,7 +15,7 @@ Rake::RDocTask.new do |rdoc|
   files =['*.markdown', 'lib/**/*.rb']
   rdoc.rdoc_files.add(files)
   rdoc.main = "README.markdown" # page to start on
-  rdoc.title = "serradura/sub-general Docs"
+  rdoc.title = "serradura/stringub_commons Docs"
   rdoc.rdoc_dir = 'doc/rdoc' # rdoc output folder
   rdoc.options << '--line-numbers'
 end

@@ -1,6 +1,6 @@
 require File.join(File.dirname(__FILE__), 'test_helper')
 
-class Sub::GeneralTest < Test::Unit::TestCase
+class Stringub::CommonsTest < Test::Unit::TestCase
 
   def setup
     @spaces_and_some_text = "    \n \r   \t\r\n foo \t bar    "
