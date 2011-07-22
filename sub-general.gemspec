@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Rodrigo Serradura"]
   s.email       = ["rserradura@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Useful methods for strings}
+  s.description = %q{Adds new general purpose methods to String class. E.g: split a string in words, replace a sequence of spaces per a unique space.}
 
   s.rubyforge_project = "sub-general"
 
