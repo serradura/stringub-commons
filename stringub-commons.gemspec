@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.email       = ["rserradura@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{Useful methods for strings}
-  s.description = %q{Borned from the firsts versions of string_utility_belt gem, this gem adds new methods to String class. E.g: split a string in words, replace a sequence of spaces per a unique space.}
-
+  s.description = %q{This library borned from the early versions of string_utility_belt gem, this gem adds new common purpose methods to String class. E.g: split a string in words, replace a sequence of spaces per a unique space.}
+  
   s.rubyforge_project = "stringub-commons"
 
   s.files         = `git ls-files`.split("\n")
