@@ -2,7 +2,7 @@
 
 ## Links
 
-<a href='http://rubygems.org/gems/stringub_commons'>http://rubygems.org/gems/stringub_commons</a>
+<a href='https://rubygems.org/gems/stringub-commons'>https://rubygems.org/gems/stringub-commons</a>
 
 <a href="http://github.com/serradura/stringub_commons">http://github.com/serradura/stringub_commons</a>
 
