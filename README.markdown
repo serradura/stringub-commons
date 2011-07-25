@@ -1,4 +1,4 @@
-# serradura-stringub-commons
+# serradura/stringub-commons
 
 ## Links
 
