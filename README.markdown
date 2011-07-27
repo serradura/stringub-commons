@@ -24,17 +24,28 @@ Split strings into an array of words.
     "Serradura's house".words
     # >> ["Serradura's", "house"]
 
+    # If you question yourself:
+    # Whats the difference between the standard method String#split and words method?
+
+    "a, b, c, d-e,@ f'g.**".split
+    # >> ["a,", "b,", "c,", "d-e,@", "f'g.**"]
+
+    "a, b, c, d-e,@ f'g.**".words
+    # >> ["a", "b", "c", "d-e", "f'g"]
+
+    # The answer is:
+    # the words method just take words!   
+
 ### Method: unique_spaces
 Removes a sequence of any kind of space characters per a unique whitespace.
-
-    "       \n    abc    ".unique_spaces
-    # >> " abc "
+    "       \n    abc   \n\n\r\t def \n\r  ghi \n".unique_spaces
+    # >> " abc def ghi "
   
     #Tip:
     #If do you need remove trailing whitespaces. chain the String#strip method:
 
-    "       \n    abc    ".unique_spaces.strip
-    # >> "abc"
+    "       \n    abc   \n\n\r\t def \n\r  ghi \n".unique_spaces.strip
+    # >> "abc def ghi"
 
 More examples can be founds in the tests.
 
