@@ -32,6 +32,7 @@ Removes a sequence of any kind of space characters per a unique whitespace.
   
     #Tip:
     #If do you need remove trailing whitespaces. chain the String#strip method:
+
     "       \n    abc    ".unique_spaces.strip
     # >> "abc"
 
