@@ -23,10 +23,10 @@ module Stringub
     # Whats the difference between the standard method String#split and words method?
     #
     #   "a, b, c, d-e,@ f'g.**".split
-    #   >> ["a,", "b,", "c,", "d-e,@", "f'g.**"]
+    #   # >> ["a,", "b,", "c,", "d-e,@", "f'g.**"]
     #
     #   "a, b, c, d-e,@ f'g.**".words
-    #   >> ["a", "b", "c", "d-e", "f'g"]
+    #   # >> ["a", "b", "c", "d-e", "f'g"]
     #
     # The answer is:
     # the words method just take words!
@@ -37,13 +37,13 @@ module Stringub
     # Removes a sequence of any kind of space characters per a unique whitespace.
     #   # Ex:
     #   "       \n    abc   \n\n\r\t def \n\r  ghi \n".unique_spaces
-    #   >> " abc def ghi "
+    #   # >> " abc def ghi "
     #
     # ===Tip:
     # If do you need remove trailing whitespaces. chain the String#strip method:
     #
     #   "       \n    abc   \n\n\r\t def \n\r  ghi \n".unique_spaces.strip
-    #   >> "abc def ghi"
+    #   # >> "abc def ghi"
     def unique_spaces
       self.gsub(ANY_SPACE_PATTERN, UNIQUE_SPACE)
     end
